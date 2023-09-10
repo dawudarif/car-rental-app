@@ -1,0 +1,107 @@
+#collection {
+  background-color: var(--bg-white);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.collection-head h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.collection-head h6 {
+  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+.collection-img {
+  width: 20rem;
+  height: 12rem;
+  border-radius: 2rem;
+}
+.collection-body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.collection-item {
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 2rem;
+  background-color: var(--ffff);
+  border: 3px solid transparent;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.collection-item:hover {
+  border: 3px solid var(--light-black);
+}
+.collection-item span {
+  gap: 0.4rem;
+  justify-content: flex-start;
+}
+.collection-item span h4 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 800;
+}
+.collection-item span p {
+  color: var(--grey);
+  font-weight: 700;
+  /* margin: 0; */
+}
+.collection-info {
+  justify-content: flex-start;
+  background-color: var(--bg-white);
+  color: var(--grey);
+  gap: 2.2rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+.collection-info span p {
+  margin: 0;
+}
+.collection-item button {
+  background-color: var(--light-black);
+  width: 100%;
+  border-radius: 1.5rem;
+  color: var(--ffff);
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  border: 2px solid transparent;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.collection-item button:hover {
+  background-color: var(--ffff);
+  color: var(--light-black);
+  border: 2px solid var(--light-black);
+}
+
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  /* Your CSS rules for mobile devices in portrait mode */
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  /* Your CSS rules for larger tablets and small laptops */
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  /* Your CSS rules for most desktop and laptop screens */
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for larger desktop screens and high-resolution displays */
+}

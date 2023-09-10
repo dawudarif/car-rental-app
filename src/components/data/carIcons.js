@@ -13,65 +13,67 @@ import {
   SiHyundai,
 } from 'react-icons/si';
 
+const size = 50;
+
 export const carIcons = [
   {
     id: 1,
     title: 'Jeep',
-    img: <SiJeep />,
+    img: <SiJeep size={size} />,
   },
   {
     id: 2,
     title: 'Toyota',
-    img: <SiToyota />,
+    img: <SiToyota size={size} />,
   },
   {
     id: 3,
     title: 'Honda',
-    img: <SiHonda />,
+    img: <SiHonda size={size} />,
   },
   {
     id: 4,
     title: 'Ford',
-    img: <SiFord />,
+    img: <SiFord size={size} />,
   },
   {
     id: 5,
     title: 'Tesla',
-    img: <SiTesla />,
+    img: <SiTesla size={size} />,
   },
   {
     id: 6,
     title: 'Volkswagen',
-    img: <SiVolkswagen />,
+    img: <SiVolkswagen size={size} />,
   },
   {
     id: 7,
     title: 'Nissan',
-    img: <SiNissan />,
+    img: <SiNissan size={size} />,
   },
   {
     id: 8,
     title: 'Chevrolet',
-    img: <SiChevrolet />,
+    img: <SiChevrolet size={size} />,
   },
   {
     id: 9,
     title: 'BMW',
-    img: <SiBmw />,
+    img: <SiBmw size={size} />,
   },
   {
     id: 10,
     title: 'Hyundai',
-    img: <SiHyundai />,
+    img: <SiHyundai size={size} />,
   },
   {
     id: 11,
     title: 'KIA',
-    img: <SiKia />,
+    img: <SiKia size={size} />,
   },
   {
     id: 12,
     title: 'Skoda',
-    img: <SiSkoda />,
+    img: <SiSkoda size={size} />,
   },
 ];
