@@ -1,0 +1,12 @@
+nav {
+  height: 3rem;
+  padding: 1rem;
+  z-index: 1;
+  background-color: black;
+}
+
+nav img {
+  height: 10rem;
+  width: 10rem;
+  /* color: white; */
+}
