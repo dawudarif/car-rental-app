@@ -2,7 +2,8 @@ import '../../styles/carBrand.css';
 import { carTypes } from '../data/carTypes';
 import { carIcons } from '../data/carIcons';
 import { BsArrowRight } from 'react-icons/bs';
-import { FaMapMarker, FaCalendarAlt } from 'react-icons/fa';
+
+const majorCities = ['New York City', 'Rochester', 'Syracuse', 'Albany'];
 
 const CarBrand = () => {
   return (
@@ -10,7 +11,13 @@ const CarBrand = () => {
       <form action='' onSubmit={(e) => e.preventDefault()} className='flex'>
         <label className='flex-col' htmlFor='pick-up-location'>
           <p>Pick-up Location</p>
-          <input type='text' id='pick-up-location' />
+          <select id='pick-up-location'>
+            {majorCities.map((city) => (
+              <option key={city} value={city}>
+                {city}
+              </option>
+            ))}
+          </select>
         </label>
         <label className='flex-col' htmlFor='pick-up-date'>
           <p>Pick-up Date</p>
@@ -18,7 +25,13 @@ const CarBrand = () => {
         </label>
         <label className='flex-col' htmlFor='drop-off-location'>
           <p>Drop-off Location</p>
-          <input type='text' id='drop-off-location' />
+          <select id='drop-off-location'>
+            {majorCities.map((city) => (
+              <option key={city} value={city}>
+                {city}
+              </option>
+            ))}
+          </select>
         </label>
         <label className='flex-col' htmlFor='drop-off-date'>
           <p>Drop-off Date</p>

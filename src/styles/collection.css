@@ -49,7 +49,6 @@
 .collection-item span p {
   color: var(--grey);
   font-weight: 700;
-  /* margin: 0; */
 }
 .collection-info {
   justify-content: flex-start;
@@ -74,13 +73,19 @@
   border: 2px solid transparent;
   transition: all;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 .collection-item button:hover {
   background-color: var(--ffff);
   color: var(--light-black);
   border: 2px solid var(--light-black);
 }
-
+.all-cars {
+  cursor: pointer;
+}
+#collection a {
+  text-decoration: none;
+}
 /* Extra Small (XS) */
 @media (max-width: 575px) {
   /* Your CSS rules for mobile devices in portrait mode */

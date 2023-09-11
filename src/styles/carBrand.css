@@ -61,7 +61,8 @@
   font-weight: 600;
   color: var(--light-black);
 }
-#car-brand form label input {
+#car-brand input,
+#car-brand select {
   width: 12rem;
   height: 2rem;
   padding: 0.5rem;
@@ -70,10 +71,13 @@
   opacity: 1;
   border-radius: 0.4rem;
   border: 3px solid transparent;
+  box-sizing: content-box;
   color: var(--grey);
 }
-#car-brand form label input:focus,
-#car-brand form label input:hover {
+#car-brand input:focus,
+#car-brand input:hover,
+#car-brand select:focus,
+#car-brand select:hover {
   border: 3px solid #0673f8;
   outline: none;
 }
@@ -90,6 +94,7 @@
   transition: all;
   gap: 0.5rem;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 #car-brand form button:hover {
@@ -104,6 +109,7 @@
   font-size: 1rem;
   transition: all;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 .grid-text span:hover {
   color: var(--blue);

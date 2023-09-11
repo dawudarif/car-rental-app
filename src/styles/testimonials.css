@@ -1,3 +1,115 @@
+#say {
+  background-color: var(--white);
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.say-head {
+  justify-content: space-between;
+}
+
+.say-head h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.say-head div {
+  gap: 0.5rem;
+}
+.say-head button {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--black);
+  color: var(--ffff);
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.say-head button:hover {
+  background-color: var(--ffff);
+  color: var(--black);
+  border: 2px solid var(--black);
+}
+
+.say-body {
+  display: flex;
+  gap: 1rem;
+  height: max-content;
+  width: max-content;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  /* position: relative; */
+  padding: 1rem 10rem;
+}
+
+.say-body::-webkit-scrollbar,
+.slider-parent::-webkit-scrollbar {
+  display: none;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.slider-parent {
+  width: 100%;
+  height: max-content;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.single-quote {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 2px solid var(--black);
+  padding: 2rem;
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--bg-white);
+  width: 25rem;
+  height: 15rem;
+  position: relative;
+}
+
+.single-quote p {
+  color: var(--grey);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.single-quote div {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.single-quote div span {
+  gap: 0.5rem;
+}
+
+.single-quote h6 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.single-quote h5 {
+  font-size: 1.1rem;
+  color: var(--black);
+  font-weight: 700;
+  margin: 0;
+}
+
+.quote {
+  padding: 1rem;
+  white-space: wrap;
+}
+
 /* Extra Small (XS) */
 @media (max-width: 575px) {
   /* Your CSS rules for mobile devices in portrait mode */

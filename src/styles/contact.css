@@ -1,44 +1,39 @@
-#services {
-  background-color: #0f0f0f;
-  color: var(--ffff);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-.services-head {
-  gap: 1rem;
-  margin-bottom: 5rem;
-}
-.services-head h1 {
-  font-size: 2rem;
-  margin: 0;
-  font-weight: 700;
-}
-.services-head h5 {
-  font-size: 1rem;
-  margin: 0;
-  font-weight: 500;
-}
-.services-body {
-  gap: 2rem;
-}
-.services-body span {
-  background-color: var(--ffff);
+#contact {
+  padding: 5rem 7rem;
   color: var(--black);
-  height: 3rem;
-  width: 3rem;
   box-sizing: border-box;
-  padding: 0.5rem;
-  border-radius: 50%;
-}
-.services-body h4 {
-  margin: 1rem;
 }
 
-.services-body p {
-  margin: 0;
+#contact h1 {
+  font-size: 3rem;
+  width: 100%;
   text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+#contact h3 {
+  font-size: 1.5rem;
+}
+
+#contact p {
+  color: var(--grey);
+}
+
+.phone-no {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--blue);
+}
+.download {
+  color: var(--grey);
+}
+
+.download:hover {
+  color: var(--blue);
 }
 
 /* Extra Small (XS) */
