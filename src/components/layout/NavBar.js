@@ -1,9 +1,9 @@
-import '../../styles/navbar.css';
 import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
+import '../../styles/navbar.css';
 
 const NavBar = () => {
   const [view, setView] = useState(false);
