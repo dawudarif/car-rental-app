@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import '../../styles/navbar.css';
 
-const NavBar = () => {
+const Navbar = () => {
   const [view, setView] = useState(false);
 
   return (
@@ -56,4 +56,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
