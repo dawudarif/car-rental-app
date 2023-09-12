@@ -1,0 +1,296 @@
+#car-brand {
+  position: relative;
+}
+
+.grid-parent {
+  width: 80%;
+}
+.grid-text {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.rent-by-group {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3rem;
+  border-radius: 3rem;
+  gap: 1rem;
+}
+.rent-by-group div {
+  background-color: var(--bg-white);
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  gap: 2rem;
+  transition: all;
+  transition-duration: 0.5s;
+  border: 2px solid transparent;
+}
+.rent-by-group div:hover {
+  border: 2px solid var(--black);
+}
+.rent-by-group div h6 {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.grid-one {
+  margin-top: 8rem;
+}
+
+#car-brand form {
+  position: absolute;
+  align-items: flex-end;
+  background-color: #e7e7e7a9;
+  height: 6rem;
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  top: -5rem;
+  border-radius: 1rem;
+  gap: 4rem;
+  box-shadow: 0px 0px 20px black;
+}
+#car-brand form label {
+  justify-content: flex-start;
+}
+#car-brand form label p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--light-black);
+}
+#car-brand input,
+#car-brand select {
+  width: 12rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  opacity: 1;
+  border-radius: 0.4rem;
+  border: 3px solid transparent;
+  box-sizing: content-box;
+  color: var(--grey);
+}
+#car-brand input:focus,
+#car-brand input:hover,
+#car-brand select:focus,
+#car-brand select:hover {
+  border: 3px solid #0673f8;
+  outline: none;
+}
+#car-brand form button {
+  background-color: var(--light-black);
+  color: var(--ffff);
+  border-radius: 1.5rem;
+  width: 10.5rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border: 2px solid transparent;
+  transition: all;
+  gap: 0.5rem;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#car-brand form button:hover {
+  background-color: var(--ffff);
+  color: var(--light-black);
+  border: 2px solid var(--light-black);
+}
+
+.grid-text span {
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.grid-text span:hover {
+  color: var(--blue);
+}
+.grid-text span:hover .arrow {
+  transition: all;
+  transition-duration: 0.5s;
+  scale: 1.1;
+}
+.grid-text h4 {
+  font-size: 1.3rem;
+}
+
+.all-cars {
+  background-color: var(--light-black);
+  color: var(--ffff);
+  border-radius: 1.5rem;
+  height: 3rem;
+  font-weight: 550;
+  font-size: 1rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 2px solid transparent;
+  transition: all;
+  text-transform: capitalize;
+  gap: 0.5rem;
+  transition-duration: 0.5s;
+  margin-top: 3rem;
+}
+
+.all-cars:hover {
+  background-color: var(--ffff);
+  color: var(--light-black);
+  border: 2px solid var(--light-black);
+}
+
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 35rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 7rem;
+    height: 7rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    gap: 0.2rem;
+    box-sizing: border-box;
+  }
+  .grid-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 17rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 7.5rem;
+    height: 7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+    box-sizing: border-box;
+  }
+  .grid-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 17rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 7.5rem;
+    height: 7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+    box-sizing: border-box;
+  }
+  .grid-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 17rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 8rem;
+    height: 8rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+/* Extra Large (XL) */
+@media (min-width: 991px) and (max-width: 1300px) {
+  #car-brand form {
+    padding: 2rem;
+    gap: 1rem;
+  }
+}

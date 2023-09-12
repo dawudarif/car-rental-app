@@ -1,0 +1,222 @@
+#hiw {
+  background-color: var(--ffff);
+}
+
+.hiw-head {
+  margin-top: 5rem;
+}
+
+.hiw-body {
+  margin-bottom: 5rem;
+}
+
+.hiw-head h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.hiw-head h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.hiw-img {
+  background-color: var(--bg-white);
+  border-radius: 2rem;
+  padding: 5rem;
+  position: relative;
+  z-index: 9;
+  width: 50rem;
+  margin-left: 10rem;
+}
+.hiw-img img {
+  margin-left: 20rem;
+}
+
+.hiw-tags {
+  position: absolute;
+  left: 2rem;
+  z-index: 10;
+  margin-left: 10rem;
+}
+
+.hiw-tag {
+  justify-content: flex-start;
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+  border: 0.5px solid rgba(0, 0, 0, 0.322);
+  background-color: var(--ffff);
+  width: 30rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 5px black;
+}
+
+.hiw-icon {
+  background-color: var(--bg-white);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.hiw-text h6 {
+  color: var(--grey);
+  margin: 0;
+}
+.hiw-text h2 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  #hiw {
+    padding: 0rem 1rem;
+  }
+  .hiw-img img {
+    height: 15rem;
+    width: 23rem;
+    margin: 0;
+  }
+  .hiw-img {
+    position: static;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .hiw-tags,
+  .hiw-body {
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+
+  .hiw-tags {
+    gap: 0.5rem;
+  }
+
+  .hiw-body {
+    flex-direction: column-reverse;
+  }
+
+  .hiw-tag {
+    margin: 0;
+    width: 90%;
+  }
+
+  .hiw-tag h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  #hiw {
+    padding: 0rem 1rem;
+  }
+  .hiw-img img {
+    height: 20rem;
+    width: 28rem;
+    margin: 0;
+  }
+  .hiw-img {
+    position: static;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .hiw-tags,
+  .hiw-body {
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+
+  .hiw-tags {
+    gap: 0.5rem;
+  }
+
+  .hiw-body {
+    flex-direction: column-reverse;
+  }
+
+  .hiw-tag {
+    margin: 0;
+  }
+
+  .hiw-tag h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  #hiw {
+    padding: 0rem 2rem;
+  }
+  .hiw-img img {
+    margin-left: 10rem;
+    height: 20rem;
+    width: 30rem;
+  }
+  .hiw-img {
+    padding: 3rem;
+    width: 90%;
+    margin-left: 10rem;
+  }
+  .hiw-tags {
+    left: 2rem;
+    margin-left: 0rem;
+  }
+  .hiw-tag {
+    width: 20rem;
+  }
+  .hiw-tag h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  #hiw {
+    padding: 0rem 2rem;
+  }
+  .hiw-img img {
+    margin-left: 10rem;
+    height: 25rem;
+    width: 35rem;
+  }
+  .hiw-img {
+    padding: 3rem;
+    width: 90%;
+    margin-left: 10rem;
+  }
+  .hiw-tags {
+    left: 2rem;
+    margin-left: 0rem;
+  }
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for larger desktop screens and high-resolution displays */
+}

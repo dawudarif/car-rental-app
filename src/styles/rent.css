@@ -1,0 +1,66 @@
+#rent {
+  padding: 5rem 7rem;
+}
+
+#rent h1 {
+  font-size: 3rem;
+}
+
+.rent-collection {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.tags {
+  gap: 1rem;
+}
+
+.tags span {
+  border: 3px solid var(--black);
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3rem;
+  transition: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.tag-nomatch {
+  background-color: var(--bg-white);
+  color: var(--black);
+  border: 3px solid var(--black);
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3rem;
+}
+
+.tag-match {
+  background-color: var(--black);
+  color: var(--bg-white);
+}
+
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  /* Your CSS rules for mobile devices in portrait mode */
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  /* Your CSS rules for larger tablets and small laptops */
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  /* Your CSS rules for most desktop and laptop screens */
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for larger desktop screens and high-resolution displays */
+}

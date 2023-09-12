@@ -1,0 +1,62 @@
+#contact {
+  padding: 5rem 7rem;
+  color: var(--black);
+  box-sizing: border-box;
+}
+
+#contact h1 {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+#contact h3 {
+  font-size: 1.5rem;
+}
+
+#contact p {
+  color: var(--grey);
+}
+
+.phone-no {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--blue);
+}
+.download {
+  color: var(--grey);
+}
+
+.download:hover {
+  color: var(--blue);
+}
+
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  /* Your CSS rules for mobile devices in portrait mode */
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  /* Your CSS rules for larger tablets and small laptops */
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  /* Your CSS rules for most desktop and laptop screens */
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for larger desktop screens and high-resolution displays */
+}

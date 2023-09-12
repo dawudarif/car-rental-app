@@ -1,0 +1,46 @@
+#about {
+  padding: 5rem 7rem;
+  color: var(--black);
+  box-sizing: border-box;
+}
+
+#about h1 {
+  font-size: 3rem;
+}
+
+#about h2 {
+  font-size: 1.5rem;
+}
+
+#about p {
+  font-size: 1rem;
+  color: var(--grey);
+}
+#about li {
+  margin: 0.8rem 0;
+  color: var(--grey);
+}
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  /* Your CSS rules for mobile devices in portrait mode */
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  /* Your CSS rules for larger tablets and small laptops */
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  /* Your CSS rules for most desktop and laptop screens */
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for larger desktop screens and high-resolution displays */
+}
