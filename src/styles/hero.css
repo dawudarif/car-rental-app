@@ -6,40 +6,67 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/src/assets/main.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: -1;
 }
 
 #hero h1 {
-  position: absolute;
-  top: 3rem;
-  left: 14rem;
   width: 70%;
   color: var(--ffff);
   font-size: 4rem;
   font-weight: 800;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  #hero {
+    height: 90vh;
+  }
+  #hero h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Small (SM) */
 @media (min-width: 575px) and (max-width: 767px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+  #hero {
+    height: 90vh;
+  }
+  #hero h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
+  #hero {
+    height: 40rem;
+  }
+  #hero h1 {
+    font-size: 3rem;
+  }
 }
 
 /* Large (LG) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
+  #hero h1 {
+    font-size: 3rem;
+  }
 }

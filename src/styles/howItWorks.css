@@ -72,22 +72,148 @@
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  #hiw {
+    padding: 0rem 1rem;
+  }
+  .hiw-img img {
+    height: 15rem;
+    width: 23rem;
+    margin: 0;
+  }
+  .hiw-img {
+    position: static;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .hiw-tags,
+  .hiw-body {
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+
+  .hiw-tags {
+    gap: 0.5rem;
+  }
+
+  .hiw-body {
+    flex-direction: column-reverse;
+  }
+
+  .hiw-tag {
+    margin: 0;
+    width: 90%;
+  }
+
+  .hiw-tag h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
 }
 
 /* Small (SM) */
 @media (min-width: 575px) and (max-width: 767px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+  #hiw {
+    padding: 0rem 1rem;
+  }
+  .hiw-img img {
+    height: 20rem;
+    width: 28rem;
+    margin: 0;
+  }
+  .hiw-img {
+    position: static;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .hiw-tags,
+  .hiw-body {
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+
+  .hiw-tags {
+    gap: 0.5rem;
+  }
+
+  .hiw-body {
+    flex-direction: column-reverse;
+  }
+
+  .hiw-tag {
+    margin: 0;
+  }
+
+  .hiw-tag h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
+  #hiw {
+    padding: 0rem 2rem;
+  }
+  .hiw-img img {
+    margin-left: 10rem;
+    height: 20rem;
+    width: 30rem;
+  }
+  .hiw-img {
+    padding: 3rem;
+    width: 90%;
+    margin-left: 10rem;
+  }
+  .hiw-tags {
+    left: 2rem;
+    margin-left: 0rem;
+  }
+  .hiw-tag {
+    width: 20rem;
+  }
+  .hiw-tag h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
 }
 
 /* Large (LG) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
+  #hiw {
+    padding: 0rem 2rem;
+  }
+  .hiw-img img {
+    margin-left: 10rem;
+    height: 25rem;
+    width: 35rem;
+  }
+  .hiw-img {
+    padding: 3rem;
+    width: 90%;
+    margin-left: 10rem;
+  }
+  .hiw-tags {
+    left: 2rem;
+    margin-left: 0rem;
+  }
 }
 
 /* Extra Large (XL) */

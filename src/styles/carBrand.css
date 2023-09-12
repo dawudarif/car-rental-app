@@ -14,7 +14,7 @@
   grid-template-columns: repeat(6, 1fr);
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   padding: 3rem;
   border-radius: 3rem;
   gap: 1rem;
@@ -149,25 +149,148 @@
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 35rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 7rem;
+    height: 7rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    gap: 0.2rem;
+    box-sizing: border-box;
+  }
+  .grid-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /* Small (SM) */
-@media (min-width: 575px) and (max-width: 7107px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+@media (min-width: 575px) and (max-width: 767px) {
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 17rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 7.5rem;
+    height: 7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+    box-sizing: border-box;
+  }
+  .grid-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 17rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 7.5rem;
+    height: 7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+    box-sizing: border-box;
+  }
+  .grid-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /* Large (LG) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
+  #car-brand form {
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 90%;
+  }
+  .grid-one {
+    margin-top: 17rem;
+  }
+  .grid-parent {
+    width: 90%;
+  }
+  .rent-by-group {
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 0.2rem;
+  }
+  .rent-by-group div {
+    width: 8rem;
+    height: 8rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
 }
 
 /* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
+@media (min-width: 991px) and (max-width: 1300px) {
+  #car-brand form {
+    padding: 2rem;
+    gap: 1rem;
+  }
 }

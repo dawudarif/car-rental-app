@@ -11,7 +11,7 @@ footer {
 }
 
 .footer-head-text {
-  width: 35rem;
+  width: 50%;
 }
 
 .footer-head-text h1 {
@@ -28,7 +28,7 @@ footer {
 }
 
 .footer-head-icons {
-  width: 35rem;
+  width: 50%;
   gap: 1rem;
 }
 .footer-head-icons div {
@@ -102,25 +102,64 @@ footer {
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  .footer-head {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4rem 1rem;
+    gap: 3rem;
+    box-sizing: border-box;
+  }
+  .footer-head div {
+    width: 90%;
+  }
+  .footer-links ul {
+    display: none;
+  }
+  .bottom-footer {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer-head-icons {
+    flex-wrap: wrap;
+  }
 }
 
 /* Small (SM) */
 @media (min-width: 575px) and (max-width: 767px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+  .footer-head {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .footer-head div {
+    width: 100%;
+  }
+  .footer-links ul {
+    display: none;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
-}
-
-/* Large (LG) */
-@media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
+  .footer-head {
+    padding: 4rem;
+    gap: 4rem;
+  }
+  .footer-head-icons {
+    flex-wrap: wrap;
+  }
+  .bottom-footer {
+    padding: 1rem 2rem;
+  }
+  .footer-links ul {
+    gap: 0.5rem;
+  }
+  .footer-links a {
+    font-size: 1rem;
+  }
+  .footer-icons {
+    gap: 0.5rem;
+  }
 }

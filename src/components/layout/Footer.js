@@ -50,7 +50,7 @@ const Footer = () => {
         <div className='footer-logo'>
           <img src={icon} alt='icon' />
         </div>
-        <div className='footer-links  '>
+        <div className='footer-links'>
           <ul className='flex'>
             <li>
               <Link

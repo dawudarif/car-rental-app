@@ -40,6 +40,11 @@ const NavBar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link onClick={() => setView(false)} to='/'>
+              Login / Signup
+            </Link>
+          </li>
         </ul>
         <AiOutlineClose
           className='nav-close'

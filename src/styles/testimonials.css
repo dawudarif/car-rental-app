@@ -112,25 +112,70 @@
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  #say {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .single-quote {
+    width: 13rem;
+    height: 18rem;
+    padding: 0.8rem;
+  }
+  .say-head h1 {
+    font-size: 1.5rem;
+  }
+  .say-head button {
+    height: 2rem;
+    width: 2rem;
+  }
+  .single-quote h6 {
+    font-size: 1rem;
+  }
+  .single-quote h5 {
+    font-size: 0.9rem;
+  }
+  .single-quote p {
+    padding: 0.5rem;
+  }
 }
 
 /* Small (SM) */
 @media (min-width: 575px) and (max-width: 767px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+  #say {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .single-quote {
+    width: 13rem;
+    height: 18rem;
+    padding: 0.8rem;
+  }
+  .say-head h1 {
+    font-size: 1.5rem;
+  }
+  .say-head button {
+    height: 2rem;
+    width: 2rem;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
+  #say {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .single-quote {
+    width: 15rem;
+    height: 22rem;
+    padding: 0.8rem;
+  }
 }
 
 /* Large (LG) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
+  #say {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }

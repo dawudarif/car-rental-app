@@ -15,25 +15,27 @@ const CarsCollection = () => {
             <h4>{car.price}</h4>
             <p>/ day</p>
           </span>
-          <div className='collection-info flex'>
-            <span className='flex-col'>
-              <SlSpeedometer size={25} />
-              <p>{car.miles}</p>
-            </span>
-            <span className='flex-col'>
-              <TbManualGearbox size={25} />
-              <p>{car.gear}</p>
-            </span>
-            <span className='flex-col'>
-              <BsPeopleFill size={25} />
-              <p>{car.seating}</p>
-            </span>
-            <span className='flex-col'>
-              <BiGasPump size={25} />
-              <p>{car.fuel}</p>
-            </span>
+          <div className='cars-absolute'>
+            <div className='collection-info flex'>
+              <span className='flex-col'>
+                <SlSpeedometer size={18} />
+                <p>{car.miles}</p>
+              </span>
+              <span className='flex-col'>
+                <TbManualGearbox size={18} />
+                <p>{car.gear}</p>
+              </span>
+              <span className='flex-col'>
+                <BsPeopleFill size={18} />
+                <p>{car.seating}</p>
+              </span>
+              <span className='flex-col'>
+                <BiGasPump size={18} />
+                <p>{car.fuel}</p>
+              </span>
+            </div>
+            <button className='flex'>Rent</button>
           </div>
-          <button>Rent</button>
         </div>
       ))}
     </div>
