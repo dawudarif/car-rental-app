@@ -5,7 +5,7 @@ import NotFound from './components/pages/NotFound';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Rent from './components/pages/Rent';
-import Navbar from './components/layout/NavBar';
+import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
