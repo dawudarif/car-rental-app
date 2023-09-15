@@ -13,6 +13,7 @@
 
 .tags {
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .tags span {
@@ -42,25 +43,34 @@
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  #rent {
+    padding: 4rem 1rem;
+  }
+  #rent h1 {
+    font-size: 2.5rem;
+  }
 }
 
 /* Small (SM) */
 @media (min-width: 575px) and (max-width: 767px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+  #rent {
+    padding: 4rem 3rem;
+  }
+  #rent h1 {
+    font-size: 2.5rem;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
+  #rent {
+    padding: 4rem 5rem;
+  }
 }
 
 /* Large (LG) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
+  #rent {
+    padding: 4rem 6rem;
+  }
 }

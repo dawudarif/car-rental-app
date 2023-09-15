@@ -93,25 +93,33 @@ nav span:hover {
 
 /* Extra Small (XS) */
 @media (max-width: 575px) {
-  /* Your CSS rules for mobile devices in portrait mode */
+  .nav-links {
+    left: 0;
+  }
+  nav {
+    padding: 3rem 1rem;
+  }
+  nav div {
+    display: none;
+  }
 }
 
 /* Small (SM) */
 @media (min-width: 575px) and (max-width: 767px) {
-  /* Your CSS rules for mobile devices in landscape mode and small tablets */
+  .nav-links {
+    left: 40%;
+  }
+  nav {
+    padding: 3rem 2rem;
+  }
+  nav div {
+    display: none;
+  }
 }
 
 /* Medium (MD) */
 @media (min-width: 767px) and (max-width: 991px) {
-  /* Your CSS rules for larger tablets and small laptops */
-}
-
-/* Large (LG) */
-@media (min-width: 991px) and (max-width: 1200px) {
-  /* Your CSS rules for most desktop and laptop screens */
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
+  .nav-links {
+    left: 50%;
+  }
 }

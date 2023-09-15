@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
     <>
       <nav>
+        <div>Login / Signup</div>
+        <img src={logo} alt='logo' />
         <span onClick={() => setView(!view)}>
           <GiHamburgerMenu size={30} />
         </span>
-        <img src={logo} alt='logo' />
-        <div>Login / Signup</div>
       </nav>
 
       <div className={`nav-links ${view ? 'nav-show' : 'nav-hide'}`}>
