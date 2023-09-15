@@ -14,7 +14,7 @@
 }
 .collection-img {
   width: 18rem;
-  height: 10rem;
+  height: 11rem;
   border-radius: 2rem;
 }
 .collection-body {
@@ -34,12 +34,7 @@
   transition-duration: 0.5s;
   position: relative;
 }
-.cars-absolute {
-  position: absolute;
-  bottom: 1rem;
-  left: 0;
-  right: 0;
-}
+
 .collection-item:hover {
   border: 3px solid var(--light-black);
 }
@@ -103,27 +98,27 @@
     padding: 1rem;
   }
   .collection-img {
-    width: 10rem;
-    height: 6rem;
+    width: 18rem;
+    height: 12rem;
   }
   .collection-head h1 {
     font-size: 2rem;
   }
   .collection-body {
+    padding: 1rem;
+    width: 90%;
     gap: 0.2rem;
   }
   .collection-item {
     padding: 0.5rem;
   }
   .collection-body {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  .collection-item {
-    height: 23rem;
-  }
+
   .collection-item button {
     font-size: 1rem;
-    height: 2rem;
+    height: 2.5rem;
   }
 }
 

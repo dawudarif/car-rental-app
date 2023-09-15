@@ -9,7 +9,7 @@ const Testimonials = () => {
     let slider = document.querySelector('.slider-parent');
     if (slider) {
       const itemWidth = slider.querySelector('.single-quote').clientWidth;
-      slider.scrollLeft -= itemWidth;
+      slider.scrollLeft -= itemWidth + 16;
     }
   };
 
@@ -17,7 +17,7 @@ const Testimonials = () => {
     let slider = document.querySelector('.slider-parent');
     if (slider) {
       const itemWidth = slider.querySelector('.single-quote').clientWidth;
-      slider.scrollLeft += itemWidth;
+      slider.scrollLeft += itemWidth + 16;
     }
   };
 
@@ -39,11 +39,11 @@ const Testimonials = () => {
           {testimonialData.map((item) => (
             <div key={item.id} className='single-quote'>
               <BsQuote size={size} />
-              <p className='quote'>{item.testimonial}</p>
+              <h4 className='testimonial'>{item.testimonial}</h4>
               <div>
                 <h6>{item.name}</h6>
                 <span className='flex'>
-                  <p>From</p>
+                  <span>From</span>
                   <h5>{item.city}</h5>
                 </span>
               </div>

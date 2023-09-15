@@ -5,7 +5,7 @@ import bmw01 from '../../assets/collection/bmw01.jpg';
 import bmw from '../../assets/collection/bmw.jpg';
 import porsche from '../../assets/collection/porsche.jpg';
 
-export const collection = [
+export const collectionData = [
   {
     id: 1,
     title: 'Audi A8 L 2022',

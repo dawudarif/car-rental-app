@@ -1,6 +1,8 @@
 footer {
   background-color: #0f0f0f;
   color: var(--ffff);
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .footer-head {

@@ -1,4 +1,4 @@
-import { collection } from './data/collection';
+import { collectionData } from './data/collectionData';
 import { BiGasPump } from 'react-icons/bi';
 import { BsPeopleFill } from 'react-icons/bs';
 import { TbManualGearbox } from 'react-icons/tb';
@@ -7,7 +7,7 @@ import { SlSpeedometer } from 'react-icons/sl';
 const CarsCollection = () => {
   return (
     <div className='collection-body'>
-      {collection.map((car) => (
+      {collectionData.map((car) => (
         <div key={car.id} className='collection-item'>
           <img className='collection-img' src={car.img} alt={car.title} />
           <h4>{car.title}</h4>

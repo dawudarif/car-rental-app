@@ -44,3 +44,36 @@
 @media (min-width: 1200px) {
   /* Your CSS rules for larger desktop screens and high-resolution displays */
 }
+/* Extra Small (XS) */
+@media (max-width: 575px) {
+  #about {
+    padding: 4rem 1rem;
+  }
+  #about h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Small (SM) */
+@media (min-width: 575px) and (max-width: 767px) {
+  #about {
+    padding: 4rem 3rem;
+  }
+  #about h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Medium (MD) */
+@media (min-width: 767px) and (max-width: 991px) {
+  #about {
+    padding: 4rem 5rem;
+  }
+}
+
+/* Large (LG) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  #about {
+    padding: 4rem 6rem;
+  }
+}
