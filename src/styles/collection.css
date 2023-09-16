@@ -68,23 +68,23 @@
   margin: 0;
 }
 .collection-item button {
-  background-color: var(--light-black);
+  background-color: var(--ffff);
+  color: var(--light-black);
+  border: 2px solid var(--light-black);
   width: 100%;
   border-radius: 1.5rem;
-  color: var(--ffff);
   padding: 0.7rem;
   font-size: 1.1rem;
   font-weight: 700;
   margin-top: 1rem;
-  border: 2px solid transparent;
   transition: all;
   transition-duration: 0.5s;
   cursor: pointer;
 }
 .collection-item button:hover {
-  background-color: var(--ffff);
-  color: var(--light-black);
-  border: 2px solid var(--light-black);
+  background-color: var(--light-black);
+  color: var(--ffff);
+  border: 2px solid transparent;
 }
 .all-cars {
   cursor: pointer;
