@@ -9,17 +9,19 @@ import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route index path='/' element={<Home />} />
-        <Route index path='/about' element={<About />} />
-        <Route index path='/contact' element={<Contact />} />
-        <Route index path='/rent' element={<Rent />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
-      <Footer />
-    </>
+    <div className='App flex'>
+      <div className='app-wrapper'>
+        <Navbar />
+        <Routes>
+          <Route index path='/' element={<Home />} />
+          <Route index path='/about' element={<About />} />
+          <Route index path='/contact' element={<Contact />} />
+          <Route index path='/rent' element={<Rent />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </div>
+    </div>
   );
 }
 

@@ -6,7 +6,6 @@ body {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif, sans-serif;
   box-sizing: border-box;
-  max-width: 1600px;
 }
 :root {
   --ffff: white;
@@ -36,6 +35,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.App {
+  width: 100%;
+}
+
+.app-wrapper {
+  max-width: 1600px;
+  width: 100%;
 }
 
 /* Firefox */

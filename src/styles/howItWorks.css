@@ -1,5 +1,6 @@
 #hiw {
   background-color: var(--ffff);
+  max-width: 1600px;
 }
 
 .hiw-head {
@@ -214,9 +215,4 @@
     left: 2rem;
     margin-left: 0rem;
   }
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for larger desktop screens and high-resolution displays */
 }
